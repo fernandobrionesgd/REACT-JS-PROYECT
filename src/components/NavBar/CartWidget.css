@@ -1,0 +1,17 @@
+.cart-widget-full{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: rgb(51, 112, 136);
+    border-radius: 20%; /* Hace que sea un círculo si las dimensiones son iguales */
+    padding: 10px; /* Espacio alrededor del contenido */
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+     }
+
+.number-add {
+    color: white;
+       /* Asegúrate de que el tamaño y la posición sean coherentes */
+       display: block; /* Hace que el span se comporte como un bloque */
+       margin: 0; /* Remueve cualquier margen por defecto */
+}

@@ -1,0 +1,12 @@
+.nav-bar {
+    display: flex;
+    border: 2px solid black;
+}
+
+.navbar-brand-img {
+    width:50px;
+}
+
+.cart-widget-container {
+    margin-left: auto;
+}
