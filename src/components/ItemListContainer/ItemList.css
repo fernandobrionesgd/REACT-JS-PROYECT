@@ -1,0 +1,21 @@
+
+.item-list {
+    display: flex;            /* Activa Flexbox */
+    flex-wrap: wrap;          /* Permite que los elementos se ajusten en múltiples filas */
+    justify-content: space-around; /* Distribuye espacio alrededor de los items */
+}
+
+/* Estilos para cada producto en la lista */
+.item-list2 {
+    width: 45%;               /* Ancho de cada producto para que quepan dos por fila */
+    margin: 10px;             /* Margen para no tocar los bordes de la pantalla o otros productos */
+    box-shadow: 0 0 10px #ccc; /* Opcional: sombra para mejor estética */
+    padding: 10px;            /* Espacio interno alrededor del contenido de cada producto */
+}
+
+/* Estilos para la imagen del producto */
+.item img {
+    width: 100%;              /* Hace que la imagen llene el ancho del contenedor del producto */
+    height: auto;             /* Mantiene la proporción de la imagen */
+}
+

@@ -1,0 +1,16 @@
+.agregar-productos {
+    display: flex; /* Establece el modelo de caja flexible para el contenedor */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.agregar-productos button {
+    padding: 5px 10px; /* Ajusta el padding de los botones */
+    cursor: pointer; /* Cambia el cursor a puntero para indicar que son clickeables */
+    margin: 5px; 
+}
+
+.agregar-productos p {
+    margin: 0; /* Elimina los márgenes predeterminados del párrafo */
+}
