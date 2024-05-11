@@ -1,16 +1,41 @@
 .agregar-productos {
-    display: flex; /* Establece el modelo de caja flexible para el contenedor */
-    align-items: center; /* Alinea verticalmente los elementos al centro */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 10px; /* Espacio entre los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.agregar-productos button {
-    padding: 5px 10px; /* Ajusta el padding de los botones */
-    cursor: pointer; /* Cambia el cursor a puntero para indicar que son clickeables */
-    margin: 5px; 
+.btn-control, .btn-agregar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-.agregar-productos p {
-    margin: 0; /* Elimina los márgenes predeterminados del párrafo */
+.btn-control {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn-control:hover {
+    background-color: #e0e0e0;
+}
+
+.contador {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:12px;
+}
+
+.btn-agregar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+}
+
+.btn-agregar:hover {
+    background-color: #45a049
 }

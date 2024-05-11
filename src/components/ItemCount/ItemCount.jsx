@@ -2,8 +2,11 @@ import './ItemCount.css'
 import { useState } from "react"
 
           // la variable input que recibe de cada SKU para operar, es el stock
-const ItemCount = ({ stock, name }) => {
+const ItemCount = ({ stock, name , price}) => {
+  
+
   const [ count, setCount ] = useState(1)
+
   const productname = name
   
   const restar = () => {
@@ -28,10 +31,10 @@ const ItemCount = ({ stock, name }) => {
 
   return (
     <div className="agregar-productos">
-      <button onClick={restar} >-</button>
-      <p>{count}</p>
-      <button onClick={sumar}>+</button>
-      <button onClick={agregarAlCarrito}>Agregar al carrito</button>
+      <button className="btn-control" onClick={restar} >-</button>
+      <p className="contador">{count}</p>
+      <button className="btn-control" onClick={sumar}>+</button>
+      <button className="btn-agregar" onClick={agregarAlCarrito}>Agregar al carrito</button>
     </div>
   )
 }

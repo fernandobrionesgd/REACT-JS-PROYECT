@@ -17,5 +17,6 @@
 .item img {
     width: 100%;              /* Hace que la imagen llene el ancho del contenedor del producto */
     height: auto;             /* Mantiene la proporción de la imagen */
+    border-radius: 3%;
 }
 

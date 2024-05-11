@@ -5,7 +5,7 @@ const products =[
         description: "Description 1",
         price: 1200,
         stock: 5,
-        categoria: "Cursos",
+        category: "cursos",
         image: "/image/modulo1.png"
     },
     {
@@ -14,7 +14,7 @@ const products =[
         description: "Description 2",
         price: 1000,
         stock: 6,
-        categoria: "Cursos",
+        category: "cursos",
         image: "/image/modulo2.png"
     },
     {
@@ -23,7 +23,7 @@ const products =[
         description: "Description 3",
         price: 1200,
         stock: 7,
-        categoria: "Cursos",
+        category: "mentorias",
         image: "/image/modulo3.png"
     },
     {
@@ -32,7 +32,7 @@ const products =[
         description: "Description 4",
         price: 1000,
         stock: 8,
-        categoria: "Cursos",
+        category: "mentorias",
         image: "/image/modulo4.png"
     }
 
