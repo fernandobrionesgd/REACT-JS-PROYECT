@@ -33,7 +33,7 @@ const products =[
         price: 1000,
         stock: 8,
         category: "mentorias",
-        image: "/image/modulo4.png"
+        image: "    "
     }
 
 ]

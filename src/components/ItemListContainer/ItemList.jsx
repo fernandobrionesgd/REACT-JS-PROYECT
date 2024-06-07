@@ -1,5 +1,4 @@
 import "./ItemList.css"
-import ItemCount from "./../ItemCount/ItemCount";
 import Item from "./Item";
 
 // colocamos aqui la prop pasada
@@ -14,8 +13,7 @@ return (
                 <div className='item-list2' key={product.id}> 
                  
                     <Item key={product.id} product={product} />
-                    <ItemCount stock={product.stock} name={product.name}/> 
-
+                    
                 </div>
             ))
         }

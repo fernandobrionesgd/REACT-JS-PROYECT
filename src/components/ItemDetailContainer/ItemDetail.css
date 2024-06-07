@@ -24,8 +24,15 @@
 .product-name {
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 .product-price {
     font-size: 20px;
+    text-align: center;
+}
+
+.product-description {
+    font-size: 15px;
+    text-align: center;
 }

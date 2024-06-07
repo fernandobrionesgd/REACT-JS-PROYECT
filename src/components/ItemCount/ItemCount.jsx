@@ -2,12 +2,11 @@ import './ItemCount.css'
 import { useState } from "react"
 
           // la variable input que recibe de cada SKU para operar, es el stock
-const ItemCount = ({ stock, name , price}) => {
+const ItemCount = ({ stock, addProduct }) => {
   
 
   const [ count, setCount ] = useState(1)
 
-  const productname = name
   
   const restar = () => {
     // tiene que haber al menos 1 producto agregado al carrito para restar
@@ -24,9 +23,8 @@ const ItemCount = ({ stock, name , price}) => {
   }
 
   const agregarAlCarrito = () => {
+    addProduct(count)
     console.log(count)
-    console.log(productname)
-
   }
 
   return (
